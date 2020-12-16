@@ -2,11 +2,12 @@ import { Calc } from './commands/calc.js';
 import { Weather } from './commands/weather.js';
 
 let input = document.querySelector('input');
-let resultTag = document.getElementById('results')
+let resultTag = document.getElementById('results');
 
 let commands = {
     calc: Calc,
-    weather: Weather
+    weather: Weather,
+    request: SendRequest
 }
 
 
